@@ -1,0 +1,31 @@
+{
+    "default": {
+
+    },
+    "pdf":{
+        "name":{
+            "type":"string",
+            "optional": true
+        },
+        "payload": {
+            "type":"any",
+            "optional": true
+        },
+        "color": {
+            "type":"object",
+            "optional": true
+        }
+    },"qrcode":{
+        "name":{
+            "type":"string",
+            "optional": true
+        },
+        "payload": {
+            "type":"any"
+        },
+        "color": {
+            "type":"object",
+            "optional": true
+        }
+    }
+}
